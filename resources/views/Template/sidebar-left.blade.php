@@ -14,7 +14,7 @@
           <img src="{{asset('img/user.PNG')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Habibah</a>
         </div>
       </div>
 
@@ -40,8 +40,20 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                  <i class="fas fa-ban nav-icon"></i>
                   <p>Inactive Page</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-plus-circle nav-icon"></i>
+                  <p>add blog</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-book nav-icon"></i>
+                  <p>data blog</p>
                 </a>
               </li>
             </ul>
