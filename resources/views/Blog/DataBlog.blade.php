@@ -41,7 +41,47 @@
 
     <!-- Main content -->
     <div class="content">
-      <h3>Halaman Data Blog</h3>
+      <h3 class="card-title">Halaman Data Blog</h3>
+              <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-12">
+              <div class="card">
+              <div class="card-header"> 
+              <h3 class="card-title">Data Table</h3>               
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table class="table table-bordered">
+                  <thead>                  
+                    <tr>
+                      <th><center>NAMA</center></th>
+                      <th colspan ="3"><center>AKSI</center></th>
+                      </tr>
+                      @foreach ($varAngka as $isinya)
+                      <tr>
+                        <td>{{$isinya}}</td>
+                        <td><center>
+                          <a href="{{$isinya}}">
+                          <i class="fas fa-eye">Read</i></a>
+                        </center></td>
+                        <td><center>
+                          <a href="{{$isinya}}">
+                          <i class="fas fa-edit">Edit</i></a>
+                        </center></td>
+                        <td><center>
+                          <a href="{{$isinya}}">
+                          <i class="fas fa-trash-alt">Hapus</i></a>
+                          </a>
+                        </center></td>
+                      </tr>
+                      @endforeach
+                  </thead>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
     </div>
     <!-- /.content -->
   </div>
