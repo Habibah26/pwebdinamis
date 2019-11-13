@@ -45,10 +45,10 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{url('/tambah-blog')}}" class="nav-link">
+                <router-link to="tambah-blog" class="nav-link">
                   <i class="fas fa-plus-circle nav-icon"></i>
                   <p>add blog</p>
-                </a>
+                </router-link>
               </li>
               <li class="nav-item">
                 <a href="{{url('/data-blog')}}" class="nav-link">

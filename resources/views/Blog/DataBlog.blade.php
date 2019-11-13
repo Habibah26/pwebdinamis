@@ -54,26 +54,26 @@
                 <table class="table table-bordered">
                   <thead>                  
                     <tr>
-                      <th><center>NAMA</center></th>
-                      <th colspan ="3"><center>AKSI</center></th>
-                      </tr>
+                      <th>NAMA</th>
+                      <th style="width: 25%">
+                          <center> AKSI</center>
+                      </th>
+                    </tr>
                       @foreach ($varAngka as $isinya)
-                      <tr>
-                        <td>{{$isinya}}</td>
-                        <td><center>
-                          <a href="{{$isinya}}">
-                          <i class="fas fa-eye">Read</i></a>
-                        </center></td>
-                        <td><center>
-                          <a href="{{$isinya}}">
-                          <i class="fas fa-edit">Edit</i></a>
-                        </center></td>
-                        <td><center>
-                          <a href="{{$isinya}}">
-                          <i class="fas fa-trash-alt">Hapus</i></a>
-                          </a>
-                        </center></td>
-                      </tr>
+                    <tr>
+                      <td>{{$isinya}}</td>
+                      <td>
+                        <a href="{{$isinya}}">
+                        <i class="fas fa-eye">Read</i>
+                        |
+                        <a href="{{$isinya}}">
+                        <i class="fas fa-edit purple">Edit</i>
+                        |
+                        <a href="{{$isinya}}">
+                        <i class="fas fa-trash-alt red">Hapus</i>
+                        </a>
+                      </td>
+                    </tr>
                       @endforeach
                   </thead>
                 </table>
