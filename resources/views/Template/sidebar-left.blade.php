@@ -45,18 +45,30 @@
                 </a>
               </li>
               <li class="nav-item">
+                <router-link to="pengguna" class="nav-link">
+                  <i class="fas fa-user"></i>
+                  <p>Pengguna</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="kategori" class="nav-link">
+                  <i class="fas fa-window-restore"></i>
+                  <p>Kategori</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
                 <router-link to="tambah-blog" class="nav-link">
                   <i class="fas fa-plus-circle nav-icon"></i>
                   <p>add blog</p>
                 </router-link>
               </li>
               <li class="nav-item">
-                <a href="{{url('/data-blog')}}" class="nav-link">
+                <router-link to="data-blog" class="nav-link">
                   <i class="fas fa-book nav-icon"></i>
                   <p>data blog</p>
-                </a>
+                </router-link>
               </li>
-            </ul>
+              </ul>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">

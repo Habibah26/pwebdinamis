@@ -4,7 +4,7 @@
 -->
 <html lang="en">
 <head>
-  <title>Tambah Blog</title>
+  <title>Pengguna</title>
   @include('Template.head')
 </head>
 
@@ -30,7 +30,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
-              <li class="breadcrumb-item active">Tambah Blog</li>
+              <li class="breadcrumb-item active">Pengguna</li>
             
             </ol>
           </div><!-- /.col -->
@@ -41,7 +41,7 @@
 
     <!-- Main content -->
     <div class="content">
-      <h3 class="card-title">Halaman Data Blog</h3>
+      <h3 class="card-title">Halaman Pengguna</h3>
               <div class="container-fluid">
               <div class="row">
               <div class="col-md-12">
