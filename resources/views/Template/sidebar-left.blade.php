@@ -34,37 +34,37 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="#" class="nav-link active">
-                  <i class="fas fa-rss-square nav-icon"></i>
+                  <i class="fas fa-rss-square red nav-icon"></i>
                   <p>Active Page</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fas fa-ban nav-icon"></i>
+                  <i class="fas fa-ban nav-icon purple"></i>
                   <p>Inactive Page</p>
                 </a>
               </li>
               <li class="nav-item">
                 <router-link to="pengguna" class="nav-link">
-                  <i class="fas fa-user"></i>
+                  <i class="fas fa-user blue"></i>
                   <p>Pengguna</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="kategori" class="nav-link">
-                  <i class="fas fa-window-restore"></i>
+                  <i class="fas fa-window-restore yellow"></i>
                   <p>Kategori</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="tambah-blog" class="nav-link">
-                  <i class="fas fa-plus-circle nav-icon"></i>
+                  <i class="fas fa-plus-circle nav-icon orange"></i>
                   <p>add blog</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="data-blog" class="nav-link">
-                  <i class="fas fa-book nav-icon"></i>
+                  <i class="fas fa-book nav-icon cyan"></i>
                   <p>data blog</p>
                 </router-link>
               </li>
@@ -72,7 +72,7 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="nav-icon fas fa-th indigo"></i>
               <p>
                 Simple Link
                 <span class="right badge badge-danger">New</span>
